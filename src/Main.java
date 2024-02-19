@@ -22,7 +22,7 @@ public class Main {
         AddressBook book2 = new AddressBook("StoneVessel@gmail.com");
 
         Person contact3 = new Person("Frida the Pug");
-        AddressBook book3 = new AddressBook("PugLife.com");
+        AddressBook book3 = new AddressBook("PugLife@gmail.com");
 
         System.out.println("What's the name of the person? ");
         String userName = input.nextLine();
