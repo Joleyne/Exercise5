@@ -31,6 +31,7 @@ public class Main {
         System.out.println("What's the email address of " + userName + "?");
         String userEmail = input.nextLine();
         AddressBook book4 = new AddressBook(userEmail);
+        book4.display(contact4);
 
         int task = prompt(input);
         while(task != 0){
